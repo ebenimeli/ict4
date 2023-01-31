@@ -1,1 +1,30 @@
 site_name: Information and Communication Technologies 4ESO
+use_directory_urls: false
+
+nav:
+- 'Computer Systems':
+  - 'Coming soon': ''
+- 'Operating Systems':
+  - 'An introduction to Operating System':
+    - 'Hardware and Software': 'content/os/hw-sw.md'
+    - 'The Operating System: definitions': 'content/os/the-os.md'
+    - 'OS Properties': 'content/os/os-properties.md'
+    - 'Linux vs Windows': 'content/os/linux-vs-windows.md'
+
+
+theme:
+    language: es
+    name: 'readthedocs'
+    palette:
+        primary: 'Teal'
+        accent: 'Teal'
+    font:
+        text: Roboto
+        code: Roboto Mono
+    logo: 'images/floppy-ict4.png'
+
+plugins:
+  - glightbox
+
+markdown_extensions:
+  - attr_list
