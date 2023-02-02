@@ -9,7 +9,10 @@ nav:
     - 'Hardware and Software': 'content/os/hw-sw.md'
     - 'The Operating System: definitions': 'content/os/the-os.md'
     - 'OS Properties': 'content/os/os-properties.md'
+  - 'Examples of Operating Systems':
+    - 'Windows, Mac and Linux': 'content/os/windows-macos-linux.md'
     - 'Linux vs Windows': 'content/os/linux-vs-windows.md'
+  - 'Linux Commands' : 'content/os/linux-commands.md'
 
 
 theme:
@@ -22,9 +25,25 @@ theme:
         text: Roboto
         code: Roboto Mono
     logo: 'images/floppy-ict4.png'
+    features:
+      - content.code.copy 
 
 plugins:
   - glightbox
 
 markdown_extensions:
-  - attr_list
+    - attr_list
+    - admonition
+    - pymdownx.arithmatex
+    - codehilite:
+    #    linenums: true
+    - footnotes
+    - meta
+    - sane_lists
+    - toc:
+        permalink: true
+        toc_depth: 3
+    - pymdownx.superfences
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
