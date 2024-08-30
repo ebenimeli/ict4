@@ -2,6 +2,7 @@ site_name: Information and Communication Technologies 4ESO
 use_directory_urls: false
 
 nav:
+- 'Presentation': 'contents/presentation.md' 
 # *************************************************************************
 # UNIT 1. Inside the Machine: Computer Architecture and Operating Systems
 # *************************************************************************
@@ -32,17 +33,17 @@ nav:
 # *************************************************************************
 - 'Unit 6. Responsible Digital Citizenship':
   - 'Responsible Digital Citizenship: Privacy and Ethics in the Digital World': 'contents/unit06/unit6.md'
-- 'Computer Systems':
-  - 'Coming soon': ''
-- 'Operating Systems':
-  - 'An introduction to Operating System':
-    - 'Hardware and Software': 'content/os/hw-sw.md'
-    - 'The Operating System: definitions': 'content/os/the-os.md'
-    - 'OS Properties': 'content/os/os-properties.md'
-  - 'Examples of Operating Systems':
-    - 'Windows, Mac and Linux': 'content/os/windows-macos-linux.md'
-    - 'Linux vs Windows': 'content/os/linux-vs-windows.md'
-  - 'Linux Commands' : 'content/os/linux-commands.md'
+#- 'Computer Systems':
+#  - 'Coming soon': ''
+#- 'Operating Systems':
+#  - 'An introduction to Operating System':
+#    - 'Hardware and Software': 'content/os/hw-sw.md'
+#    - 'The Operating System: definitions': 'content/os/the-os.md'
+#    - 'OS Properties': 'content/os/os-properties.md'
+#  - 'Examples of Operating Systems':
+#    - 'Windows, Mac and Linux': 'content/os/windows-macos-linux.md'
+#    - 'Linux vs Windows': 'content/os/linux-vs-windows.md'
+#  - 'Linux Commands' : 'content/os/linux-commands.md'
 
 theme:
     language: es
