@@ -75,5 +75,8 @@ markdown_extensions:
         toc_depth: 3
     - pymdownx.superfences
 
+extra_css:
+  - css/ict.css
+
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
