@@ -1,0 +1,5 @@
+# Unit 4. Connecting Minds: Online Communication, Collaboration, and Publishing
+
+<img class="header" src="../images/ud4_ict4.jpeg"/>
+
+The unit *Connecting Minds: Online Communication, Collaboration, and Publishing* explores various aspects of digital communication and collaboration in virtual environments. It examines Internet services such as email, video conferencing, and instant messaging, as well as virtual communities, including social networks and learning environments. Students will learn to use collaborative tools for content editing and to manage personal learning environments and networks. The focus is on critical habits for online debate and strategies for safe and healthy online coexistence. Additionally, it addresses the implications of using digital devices and responsible web publishing, including blogs and forums.

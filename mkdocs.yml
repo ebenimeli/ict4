@@ -2,6 +2,36 @@ site_name: Information and Communication Technologies 4ESO
 use_directory_urls: false
 
 nav:
+# *************************************************************************
+# UNIT 1. Inside the Machine: Computer Architecture and Operating Systems
+# *************************************************************************
+- 'Unit 1. Inside the machine':
+  - 'Inside the Machine: Computer Architecture and Operating Systems': 'contents/unit01/unit1.md'
+# *************************************************************************
+# UNIT 2. The Digital Highway: Communication Systems and the World of the Internet
+# *************************************************************************
+- 'Unit 2. The Digital Highway':
+  - 'The Digital Highway: Communication Systems and the World of the Internet': 'contents/unit02/unit2.md'
+# *************************************************************************
+# UNIT 3. Creating the Future: Digital Content and Coding Essentials
+# *************************************************************************
+- 'Unit 3. Creating the Future':
+  - 'Creating the Future: Digital Content and Coding Essentials': 'contents/unit03/unit3.md'
+# *************************************************************************
+# UNIT 4. Connecting Minds: Online Communication, Collaboration, and Publishing
+# *************************************************************************
+- 'Unit 4. Connecting Minds':
+  - 'Connecting Minds: Online Communication, Collaboration, and Publishing': 'contents/unit04/unit4.md'
+# *************************************************************************
+# UNIT 5. Security and Well-being in Digital Spaces
+# *************************************************************************
+- 'Unit 5. Security and Well-being':
+  - 'Security and Well-being in Digital Spaces': 'contents/unit05/unit5.md'
+# *************************************************************************
+# UNIT 6. Responsible Digital Citizenship: Privacy and Ethics in the Digital World
+# *************************************************************************
+- 'Unit 6. Responsible Digital Citizenship':
+  - 'Responsible Digital Citizenship: Privacy and Ethics in the Digital World': 'contents/unit06/unit6.md'
 - 'Computer Systems':
   - 'Coming soon': ''
 - 'Operating Systems':
@@ -13,7 +43,6 @@ nav:
     - 'Windows, Mac and Linux': 'content/os/windows-macos-linux.md'
     - 'Linux vs Windows': 'content/os/linux-vs-windows.md'
   - 'Linux Commands' : 'content/os/linux-commands.md'
-
 
 theme:
     language: es
