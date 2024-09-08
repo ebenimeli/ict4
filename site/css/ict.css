@@ -43,3 +43,13 @@ img.header {
     display: block;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
+div.glightbox {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.glightbox a img {
+    width: 90%;
+
+}
