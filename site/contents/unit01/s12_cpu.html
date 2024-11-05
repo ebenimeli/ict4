@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Operating Systems functions - Information and Communication Technologies 4ESO</title>
+    <title>Central Processing Unit (CPU) - Information and Communication Technologies 4ESO</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -13,8 +13,8 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Operating Systems functions";
-        var mkdocs_page_input_path = "contents/os/os-functions.md";
+        var mkdocs_page_name = "Central Processing Unit (CPU)";
+        var mkdocs_page_input_path = "contents/unit01/s12_cpu.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -48,29 +48,29 @@
               </ul>
               <p class="caption"><span class="caption-text">Unit 1. Inside the machine</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../unit01/unit1.html">Inside the Machine: Computer Architecture and Operating Systems</a>
+                  <li class="toctree-l1"><a class="reference internal" href="unit1.html">Inside the Machine: Computer Architecture and Operating Systems</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" >1. Computer Architecture</a>
     <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../unit01/digital_info.html">Digital Information</a>
+                <li class="toctree-l2"><a class="reference internal" href="digital_info.html">Digital Information</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../unit01/s11_intro.html">Digital Devices: An Overview</a>
+                <li class="toctree-l2"><a class="reference internal" href="s11_intro.html">Digital Devices: An Overview</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../unit01/s11_personalcomputers.html">Personal computers</a>
+                <li class="toctree-l2"><a class="reference internal" href="s11_personalcomputers.html">Personal computers</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../unit01/s11_mobiledev.html">Mobile devices</a>
+                <li class="toctree-l2"><a class="reference internal" href="s11_mobiledev.html">Mobile devices</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../unit01/s11_otherdev.html">Other devices</a>
+                <li class="toctree-l2"><a class="reference internal" href="s11_otherdev.html">Other devices</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../unit01/s12_computer_science.html">Computer Science</a>
+                <li class="toctree-l2"><a class="reference internal" href="s12_computer_science.html">Computer Science</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../unit01/s12_hw_sw.html">Hardware and Software</a>
+                <li class="toctree-l2"><a class="reference internal" href="s12_hw_sw.html">Hardware and Software</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../unit01/s12_pc_main_components.html">Computer Components</a>
+                <li class="toctree-l2"><a class="reference internal" href="s12_pc_main_components.html">Computer Components</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../unit01/s12_storage_devices.html">Storage Devices</a>
+                <li class="toctree-l2"><a class="reference internal" href="s12_storage_devices.html">Storage Devices</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../unit01/s12_peripheral.html">Peripheral Devices</a>
+                <li class="toctree-l2"><a class="reference internal" href="s12_peripheral.html">Peripheral Devices</a>
                 </li>
     </ul>
                   </li>
@@ -120,7 +120,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Operating Systems functions</li>
+      <li class="breadcrumb-item active">Central Processing Unit (CPU)</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -129,7 +129,30 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="operating-systems-functions">Operating Systems functions<a class="headerlink" href="#operating-systems-functions" title="Permanent link">&para;</a></h1>
+                <h1 id="central-processing-unit-cpu">Central Processing Unit (CPU)<a class="headerlink" href="#central-processing-unit-cpu" title="Permanent link">&para;</a></h1>
+<p><a class="glightbox" href="images/cpu.jpeg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Central Processing Unit (CPU)" src="images/cpu.jpeg" /></a></p>
+<p>The Central Processing Unit, or CPU, is often called the brain of a digital device. It performs calculations and carries out instructions to make the device work. Without the CPU, your computer, tablet, or smartphone wouldn't be able to do anything useful. Let's delve deeper into what makes the CPU so crucial and how it operates.</p>
+<h2 id="key-points">Key points<a class="headerlink" href="#key-points" title="Permanent link">&para;</a></h2>
+<p><strong>Brain of the Device:</strong><br />
+The CPU processes instructions from programs and applications. Just like our brains control our actions, the CPU controls the functions of a digital device. Every action you take on a device, whether it’s opening an app, playing a game, or typing a document, is processed by the CPU. It translates human actions (like clicking a mouse) into actions the device can perform.</p>
+<p><strong>Speed:</strong><br />
+CPU speed is measured in gigahertz (GHz). A higher number means a faster CPU. For example, a 3.5 GHz CPU can perform 3.5 billion cycles per second. These cycles are like tiny steps in processing information. The more cycles per second, the more instructions the CPU can handle, leading to faster performance. This speed impacts how quickly your device can open programs, run applications, and execute commands.</p>
+<p><strong>Cores:</strong><br />
+Modern CPUs have multiple cores. More cores allow a device to perform multiple tasks at the same time. Initially, CPUs had a single core, meaning they could handle one task at a time. However, most modern CPUs are multicore, with dual-core, quad-core, and even octa-core processors being common. Each core can handle its own tasks, making multitasking smoother and more efficient. For instance, while one core handles a game you’re playing, another core can manage background tasks like checking for email updates.</p>
+<h2 id="how-the-cpu-works">How the CPU Works<a class="headerlink" href="#how-the-cpu-works" title="Permanent link">&para;</a></h2>
+<p>To understand the CPU better, let's break down its main functions:</p>
+<ol>
+<li><strong>Fetch:</strong> The CPU gets the next instruction from the device's RAM (Random Access Memory).</li>
+<li><strong>Decode:</strong> It then decodes the instruction to understand what action is needed.</li>
+<li><strong>Execute:</strong> The CPU performs the instruction, whether it’s a calculation, data transfer, or something else.</li>
+<li><strong>Store:</strong> Finally, the CPU writes the result back to the RAM or a register (a small storage location within the CPU).</li>
+</ol>
+<h2 id="real-world-analogy">Real-World Analogy<a class="headerlink" href="#real-world-analogy" title="Permanent link">&para;</a></h2>
+<p>Think of the CPU like a teacher in a classroom. The teacher gives instructions to students (the device's other parts) to complete tasks. A faster teacher (higher GHz) and more teachers (more cores) mean tasks are done quicker and more efficiently. If the teacher can instruct faster, students complete their work faster. If there are multiple teachers, more students can receive instructions simultaneously, improving overall efficiency.</p>
+<h2 id="importance-of-cpu-in-everyday-use">Importance of CPU in Everyday Use:<a class="headerlink" href="#importance-of-cpu-in-everyday-use" title="Permanent link">&para;</a></h2>
+<p>In your daily use of digital devices, the CPU plays a critical role. When you launch a web browser, the CPU fetches, decodes, and executes the necessary instructions to display the web page. When you play a game, the CPU handles complex calculations to render graphics, process game logic, and respond to your inputs. Even simple tasks like typing a document or watching a video rely on the CPU to function smoothly.</p>
+<p>A powerful CPU can significantly enhance your experience by reducing lag, improving load times, and allowing for more complex applications to run seamlessly. As technology advances, CPUs continue to evolve, becoming more powerful and efficient, which in turn makes our devices more capable and responsive.</p>
+<p>Understanding the CPU's role helps you appreciate why certain devices perform better than others and why upgrading your CPU can lead to noticeable improvements in performance.</p>
               
             </div>
           </div><footer>

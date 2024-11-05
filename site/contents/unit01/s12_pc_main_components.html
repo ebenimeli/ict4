@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Inside the Machine: Computer Architecture and Operating Systems - Information and Communication Technologies 4ESO</title>
+    <title>Computer Components - Information and Communication Technologies 4ESO</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -13,8 +13,8 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Inside the Machine: Computer Architecture and Operating Systems";
-        var mkdocs_page_input_path = "contents/unit01/unit1.md";
+        var mkdocs_page_name = "Computer Components";
+        var mkdocs_page_input_path = "contents/unit01/s12_pc_main_components.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -48,14 +48,10 @@
               </ul>
               <p class="caption"><span class="caption-text">Unit 1. Inside the machine</span></p>
               <ul class="current">
-                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Inside the Machine: Computer Architecture and Operating Systems</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#summary">Summary</a>
-    </li>
-    </ul>
+                  <li class="toctree-l1"><a class="reference internal" href="unit1.html">Inside the Machine: Computer Architecture and Operating Systems</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" >1. Computer Architecture</a>
-    <ul>
+                  <li class="toctree-l1 current"><a class="reference internal current" >1. Computer Architecture</a>
+    <ul class="current">
                 <li class="toctree-l2"><a class="reference internal" href="digital_info.html">Digital Information</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="s11_intro.html">Digital Devices: An Overview</a>
@@ -70,7 +66,21 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="s12_hw_sw.html">Hardware and Software</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="s12_pc_main_components.html">Computer Components</a>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Computer Components</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#motherboard">Motherboard</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cpu-central-processing-unit">CPU (Central Processing Unit)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rom-read-only-memory">ROM (Read Only Memory)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ram-random-access-memory">RAM (Random Access Memory)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#hard-drives">Hard Drives</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#how-they-work-together">How They Work Together</a>
+    </li>
+    </ul>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="s12_storage_devices.html">Storage Devices</a>
                 </li>
@@ -125,7 +135,8 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
           <li class="breadcrumb-item">Unit 1. Inside the machine</li>
-      <li class="breadcrumb-item active">Inside the Machine: Computer Architecture and Operating Systems</li>
+          <li class="breadcrumb-item">1. Computer Architecture</li>
+      <li class="breadcrumb-item active">Computer Components</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -134,16 +145,34 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="unit-1-inside-the-machine-computer-architecture-and-operating-systems">Unit 1. Inside the Machine: Computer Architecture and Operating Systems¶<a class="headerlink" href="#unit-1-inside-the-machine-computer-architecture-and-operating-systems" title="Permanent link">&para;</a></h1>
-<p><a class="glightbox" href="../images/ud1_ict4.jpeg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img class="header" src="../images/ud1_ict4.jpeg"/></a></p>
-<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
-<p>The unit Inside the Machine: Computer Architecture and Operating Systems offers a comprehensive exploration of the structure and functioning of computers. It delves into the digital representation of information and measurement units, details the design and components of a personal computer, and provides criteria for selecting and configuring these components. Additionally, it addresses a critical approach to the responsible and sustainable use of computing equipment. The unit includes the interaction between components to optimize performance and efficiency, and examines the features of mobile devices. It also covers operating systems, their installation, and application management.</p>
+                <h1 id="computer-main-components">Computer Main Components<a class="headerlink" href="#computer-main-components" title="Permanent link">&para;</a></h1>
+<p><a class="glightbox" href="images/harddisk.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="images/harddisk.jpg" class="header"></a></p>
+<p>Computers have many important parts, or <em>components</em>, that work together to help us do tasks like playing games, writing stories, or browsing the Internet. Let’s look at some of these parts and what they do!</p>
+<h2 id="motherboard">Motherboard<a class="headerlink" href="#motherboard" title="Permanent link">&para;</a></h2>
+<p>The motherboard is like the main road where all the important parts of the computer are connected. It’s a large board inside the computer that connects things like the CPU, memory, and hard drive. We also call it the “mainboard” or “logic board.”</p>
+<p>All the other parts of the computer communicate through the motherboard, which makes it very important for everything to work well together.</p>
+<h2 id="cpu-central-processing-unit">CPU (Central Processing Unit)<a class="headerlink" href="#cpu-central-processing-unit" title="Permanent link">&para;</a></h2>
+<p>The CPU, or Central Processing Unit, is known as the “brain” of the computer.</p>
+<p>The CPU takes care of most of the thinking and calculations. When you play a game, type on the keyboard, or open a file, the CPU processes all these actions to make sure they happen correctly.</p>
+<p>It follows instructions given by the software and tells other parts of the computer what to do. Without the CPU, the computer wouldn’t be able to work!</p>
+<h2 id="rom-read-only-memory">ROM (Read Only Memory)<a class="headerlink" href="#rom-read-only-memory" title="Permanent link">&para;</a></h2>
+<p>ROM, or Read Only Memory, is a type of memory in the computer. The information stored in ROM cannot be changed, and it is not erased even when we turn off the computer.</p>
+<p>ROM stores important instructions that help the computer start up and check that everything is working. Since the content stays even after the power is off, ROM is very reliable for keeping essential data.</p>
+<h2 id="ram-random-access-memory">RAM (Random Access Memory)<a class="headerlink" href="#ram-random-access-memory" title="Permanent link">&para;</a></h2>
+<p>RAM, or Random Access Memory, is a different type of memory. Unlike ROM, it’s called read-write memory, which means the information in RAM can be changed.</p>
+<p>RAM is where the computer keeps data temporarily while you’re using it, like when you’re playing a game or typing a document. However, RAM is erased every time we turn off the computer, so anything stored here is only kept while the computer is on. This makes RAM very fast, and it helps the CPU work quickly with data.</p>
+<h2 id="hard-drives">Hard Drives<a class="headerlink" href="#hard-drives" title="Permanent link">&para;</a></h2>
+<p>The hard drive (or hard disk) is where the computer stores all of its data, including programs, files, and photos.</p>
+<p>The hard drive keeps information even after the computer is turned off, so it is very good for storing things we want to save, like our homework or music files. Hard drives can hold a lot of information, and unlike RAM, they keep it safe even when the computer isn’t powered on.</p>
+<h2 id="how-they-work-together">How They Work Together<a class="headerlink" href="#how-they-work-together" title="Permanent link">&para;</a></h2>
+<p>When you use a computer, these parts all work together. For example, when you open a game, the CPU (the computer’s brain) uses RAM to load the game quickly. While you play, the CPU keeps reading and writing data in the RAM because RAM is fast. If you save your game progress, the information goes from the RAM to the hard drive, where it will stay even after you turn off the computer. This way, you can continue from where you left off next time. </p>
+<p>So, the CPU, RAM, and hard drive work as a team: the CPU processes information, the RAM holds it temporarily, and the hard drive saves it for later. Together, they make the computer a powerful tool!</p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../unit00/presentation.html" class="btn btn-neutral float-left" title="Presentation"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="digital_info.html" class="btn btn-neutral float-right" title="Digital Information">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="s12_hw_sw.html" class="btn btn-neutral float-left" title="Hardware and Software"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="s12_storage_devices.html" class="btn btn-neutral float-right" title="Storage Devices">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -166,10 +195,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../unit00/presentation.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="s12_hw_sw.html" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="digital_info.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="s12_storage_devices.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
