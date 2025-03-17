@@ -24,6 +24,8 @@ nav:
     - 'Web Project': 'contents/htmlcss/webproject.md'
     - 'HTML': 'contents/htmlcss/html.md'
     - 'CSS': 'contents/htmlcss/css.md'
+  - 'Ada Lovelace':
+    - 'Calculating Ada - The Countess of Computing': 'contents/ada.md'
   #- '2. Operating Systems': # SB1.1
   #  - 'Intro': ''
     # *************************************************************************
