@@ -42,7 +42,7 @@ Ada’s **algorithm** was a breakthrough because it demonstrated the fundamental
 
 The documentary emphasizes how Ada’s insights were years ahead of their time. In the mid-19th century, the idea that machines could perform complex, variable tasks was inconceivable to most people, and the technology to build such machines did not exist. However, Ada saw the future potential of **computers** in a way that others did not, and her vision laid the groundwork for the modern **computing world**.
 
-<div class="note">Ada’s notes on the analytical engine contained an example of an algorithm for calculating Bernoulli numbers, which remains recognized as the first computer program in history.</div>
+<div class="note">Ada’s notes on the analytical engine contained an example of an <b>algorithm</b> for calculating Bernoulli numbers, which remains recognized as the <b>first computer program</b> in history.</div>
 
 ## The Legacy of Ada Lovelace
 
@@ -50,7 +50,7 @@ The documentary underscores that despite the significance of Ada’s work, her c
 
 However, in the 20th century, historians and **computer scientists** rediscovered Ada’s work, and her contributions were finally acknowledged. The documentary details how Ada’s notes on the **analytical engine** were rediscovered in the 1950s and 1960s, at a time when **computer science** was emerging as a formal discipline. Ada was hailed as a **visionary**, someone who had seen the potential of **computers** long before they existed. The recognition of her contributions marked a turning point in the history of **computing**, as it became clear that Ada Lovelace's work was not only **foundational** but **visionary**.
 
-<div class="note">Despite the significance of Ada’s work, her contributions remained largely unrecognized for many years</div>
+<div class="note">Despite the <b>significance of Ada’s work</b>, her contributions remained largely <b>unrecognized</b> for many years</div>
 
 The documentary also explores how Ada’s **legacy** has been celebrated in recent decades. **Ada Lovelace Day**, an annual event celebrated in October, has become an important occasion for highlighting the contributions of women in **science**, **technology**, **engineering**, and **mathematics** (STEM). Ada’s work is now widely seen as the starting point for the field of **computer programming**, and she is honored as one of the earliest pioneers of the **digital age**.
 
@@ -60,7 +60,7 @@ Ada’s **legacy** is not only relevant in the history of **computing** but also
 
 The documentary highlights how Ada’s work continues to influence the world of **computing** today. The U.S. **Department of Defense**, in honor of Ada’s pioneering contributions, named a **programming language** "Ada" in the 1980s. The Ada **programming language** is still in use today, particularly in industries that require high levels of **reliability**, such as **aerospace** and **defense**.
 
-<div class="note">The U.S. Department of Defense, in honor of Ada’s pioneering contributions, named a programming language 'Ada' in the 1980s.</div>
+<div class="note">The U.S. Department of Defense, in honor of Ada’s pioneering contributions, named a <b>programming language 'Ada'</b> in the 1980s.</div>
 
 Ada’s vision of **computers** as versatile machines capable of performing a wide range of tasks is reflected in the development of modern **computing systems**. The documentary stresses that Ada's fundamental idea—that machines could be programmed to execute a sequence of operations to perform different tasks—has become the cornerstone of modern **computing**. Today’s computers, from the smallest smartphones to the largest supercomputers, all rely on the principles Ada described over a century ago.
 
@@ -68,7 +68,7 @@ Ada’s vision of **computers** as versatile machines capable of performing a wi
 
 One of the most important themes of the documentary is the impact Ada Lovelace has had on inspiring **women** in **technology**. The documentary highlights how Ada’s story has become a beacon for women who pursue careers in **STEM** fields. Ada’s achievements, despite the constraints of her time, continue to serve as a model for women today who seek to break through barriers in male-dominated industries like **technology** and **engineering**.
 
-<div class="note">Ada’s story has become a beacon for women who pursue careers in STEM fields.</div>
+<div class="note">Ada’s story has become a beacon for women who pursue careers in <b>STEM fields</b>.</div>
 
 The documentary emphasizes that, despite the progress made over the years, **women** remain underrepresented in the fields of **science**, **technology**, **engineering**, and **mathematics**. Ada’s **legacy**, however, continues to motivate future generations of **women** who see in her a symbol of **possibility** and **potential**. In a world where gender disparities persist in many areas of life, Ada’s story serves as a powerful reminder that women have always played an essential role in shaping the future of **science** and **technology**.
 
@@ -76,7 +76,7 @@ The documentary emphasizes that, despite the progress made over the years, **wom
 
 The documentary concludes by reflecting on the extraordinary impact Ada Lovelace had on the world of **computing**, a field that was only beginning to take shape during her lifetime. Her work, initially overshadowed by other intellectual giants, has come to be recognized as one of the most important contributions to the development of **computer science**. Ada’s vision of a world in which machines could be programmed to perform tasks beyond simple **calculation** has shaped the **digital world** we live in today.
 
-<div class="note">Ada Lovelace envisioned the digital age more than a century before it arrived.</div>
+<div class="note">Ada Lovelace envisioned the <b>digital age</b> more than a century before it arrived.</div>
 
 Ada Lovelace’s **legacy** is one of **intellectual curiosity**, **foresight**, and **perseverance**. She was a woman ahead of her time, and her groundbreaking work continues to inspire future generations of **mathematicians**, **engineers**, and **computer scientists**.
 
