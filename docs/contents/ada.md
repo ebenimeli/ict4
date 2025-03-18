@@ -1,5 +1,7 @@
 # Calculating Ada – The Countess of Computing
 
+<img class="header" src="images/adalovelace.jpg"/>
+
 [BBC Documentary · Calculating Ada – The Countess of Computing](https://www.youtube.com/watch?v=QgUVrzkQgds)
 
 ---
