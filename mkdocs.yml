@@ -2,32 +2,32 @@ site_name: Information and Communication Technologies 4ESO
 use_directory_urls: false
 
 nav:
-- 'Presentation': 'contents/unit00/presentation.md' 
-# *************************************************************************
-# UNIT 1. Inside the Machine: Computer Architecture and Operating Systems
-# *************************************************************************
-- 'Inside the machine':
-  - 'Inside the Machine: Computer Architecture and Operating Systems': 'contents/unit01/unit1.md'
-  - '1. Computer Architecture': # SB1.1
-    - 'Digital Information': 'contents/unit01/digital_info.md'
-    - 'Digital Devices: An Overview': 'contents/unit01/s11_intro.md'
-    - 'Personal computers': 'contents/unit01/s11_personalcomputers.md'
-    - 'Mobile devices': 'contents/unit01/s11_mobiledev.md'
-    - 'Other devices': 'contents/unit01/s11_otherdev.md'
-    #  - 'Digital Devices: An Introduction': 'contents/devices/s12_intro.md'
-    - 'Computer Science': 'contents/unit01/s12_computer_science.md'
-    - 'Hardware and Software': 'contents/unit01/s12_hw_sw.md'
-    - 'Computer Components': 'contents/unit01/s12_pc_main_components.md'
-    - 'Storage Devices': 'contents/unit01/s12_storage_devices.md'
-    - 'Peripheral Devices': 'contents/unit01/s12_peripheral.md'
-  - 'Web Programming':
-    - 'Web Project': 'contents/htmlcss/webproject.md'
-    - 'HTML': 'contents/htmlcss/html.md'
-    - 'CSS': 'contents/htmlcss/css.md'
-  - 'Ada Lovelace':
-    - 'Calculating Ada - The Countess of Computing': 'contents/ada.md'
-  #- '2. Operating Systems': # SB1.1
-  #  - 'Intro': ''
+  - "Presentation": "contents/unit00/presentation.md"
+  # *************************************************************************
+  # UNIT 1. Inside the Machine: Computer Architecture and Operating Systems
+  # *************************************************************************
+  - "Inside the machine":
+      - "Inside the Machine: Computer Architecture and Operating Systems": "contents/unit01/unit1.md"
+    #- '1. Computer Architecture': # SB1.1
+    #  - 'Digital Information': 'contents/unit01/digital_info.md'
+    #  - 'Digital Devices: An Overview': 'contents/unit01/s11_intro.md'
+    #  - 'Personal computers': 'contents/unit01/s11_personalcomputers.md'
+    #  - 'Mobile devices': 'contents/unit01/s11_mobiledev.md'
+    #  - 'Other devices': 'contents/unit01/s11_otherdev.md'
+    #  #  - 'Digital Devices: An Introduction': 'contents/devices/s12_intro.md'
+    #  - 'Computer Science': 'contents/unit01/s12_computer_science.md'
+    #  - 'Hardware and Software': 'contents/unit01/s12_hw_sw.md'
+    #  - 'Computer Components': 'contents/unit01/s12_pc_main_components.md'
+    #  - 'Storage Devices': 'contents/unit01/s12_storage_devices.md'
+    #  - 'Peripheral Devices': 'contents/unit01/s12_peripheral.md'
+    #- 'Web Programming':
+    #  - 'Web Project': 'contents/htmlcss/webproject.md'
+    #  - 'HTML': 'contents/htmlcss/html.md'
+    #  - 'CSS': 'contents/htmlcss/css.md'
+    #- 'Ada Lovelace':
+    #  - 'Calculating Ada - The Countess of Computing': 'contents/ada.md'
+    #- '2. Operating Systems': # SB1.1
+    #  - 'Intro': ''
     # *************************************************************************
 # UNIT 2. The Digital Highway: Communication Systems and the World of the Internet
 # *************************************************************************
@@ -66,37 +66,37 @@ nav:
 #  - 'Linux Commands' : 'content/os/linux-commands.md'
 
 theme:
-    language: es
-    name: 'readthedocs'
-    palette:
-        primary: 'Teal'
-        accent: 'Teal'
-    font:
-        text: Roboto
-        code: Roboto Mono
-    logo: 'images/floppy-ict4.png'
-    features:
-      - content.code.copy 
+  language: es
+  name: "readthedocs"
+  palette:
+    primary: "Teal"
+    accent: "Teal"
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: "images/floppy-ict4.png"
+  features:
+    - content.code.copy
 
 plugins:
   - glightbox
 
 markdown_extensions:
-    - attr_list
-    - admonition
-    - pymdownx.arithmatex
-    - codehilite:
-    #    linenums: true
-    - footnotes
-    - meta
-    - sane_lists
-    - toc:
-        permalink: true
-        toc_depth: 3
-    - pymdownx.superfences
+  - attr_list
+  - admonition
+  - pymdownx.arithmatex
+  - codehilite:
+  #    linenums: true
+  - footnotes
+  - meta
+  - sane_lists
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.superfences
 
 extra_css:
   - css/ict.css
 
 extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
