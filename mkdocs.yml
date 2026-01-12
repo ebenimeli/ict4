@@ -8,6 +8,7 @@ nav:
   # *************************************************************************
   - "Inside the machine":
       - "Inside the Machine: Computer Architecture and Operating Systems": "contents/unit01/unit1.md"
+      - "Slides: Computer Architecture (I)": "contents/unit01/slides.md"
       - "1. Computer Architecture": # SB1.1
           - "Digital Information": "contents/unit01/digital_info.md"
           - "Digital Devices: An Overview": "contents/unit01/s11_intro.md"
