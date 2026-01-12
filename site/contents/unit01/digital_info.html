@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Digital info - Information and Communication Technologies 4ESO</title>
+    <title>Digital Information - Information and Communication Technologies 4ESO</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -13,7 +13,7 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Digital info";
+        var mkdocs_page_name = "Digital Information";
         var mkdocs_page_input_path = "contents/unit01/digital_info.md";
         var mkdocs_page_url = null;
       </script>
@@ -47,8 +47,42 @@
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Inside the machine</span></p>
-              <ul>
+              <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="unit1.html">Inside the Machine: Computer Architecture and Operating Systems</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >1. Computer Architecture</a>
+    <ul class="current">
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Digital Information</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#binary-code">Binary Code</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ascii">ASCII</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#units-of-information">Units of Information</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#orders-of-magnitude-in-data">Orders of Magnitude in Data</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="s11_intro.html">Digital Devices: An Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="s11_personalcomputers.html">Personal computers</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="s11_mobiledev.html">Mobile devices</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="s11_otherdev.html">Other devices</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="s12_computer_science.html">Computer Science</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="s12_hw_sw.html">Hardware and Software</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="s12_pc_main_components.html">Computer Components</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="s12_storage_devices.html">Storage Devices</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="s12_peripheral.html">Peripheral Devices</a>
+                </li>
+    </ul>
                   </li>
               </ul>
       </div>
@@ -65,7 +99,9 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Digital info</li>
+          <li class="breadcrumb-item">Inside the machine</li>
+          <li class="breadcrumb-item">1. Computer Architecture</li>
+      <li class="breadcrumb-item active">Digital Information</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -74,10 +110,39 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                
+                <h1 id="digital-information">Digital Information<a class="headerlink" href="#digital-information" title="Permanent link">&para;</a></h1>
+<h2 id="binary-code">Binary Code<a class="headerlink" href="#binary-code" title="Permanent link">&para;</a></h2>
+<p>Information entered into a computer is translated into a specific form that computers can understand: binary code. This transformation process is known as <em>encoding</em>. Computers, unlike humans, do not process letters, numbers, or symbols directly; they process data in binary, which consists of only two symbols—0 and 1. These binary digits, or bits, are the foundation of how information is stored, processed, and communicated in a computer.</p>
+<p>A bit is the smallest unit of information used in computing. It can represent one of two possible values: 0 or 1, corresponding to the two possible states in a binary system. These values may represent things like the on/off states of electrical signals, true/false conditions, or high/low voltage in a physical system. By combining bits, computers can represent more complex forms of data, such as numbers, letters, images, and sounds. For example, a single bit is quite limited on its own, but when multiple bits are combined, they allow computers to encode and process a wide range of information.</p>
+<p>To increase the amount of data a computer can handle, bits are grouped together. The most common grouping is 8 bits, which forms a byte. A byte can represent 256 different values, as it has 2⁸ possible combinations of 0s and 1s. These values can be used to represent characters, numbers, or even parts of larger data sets like images or audio files.</p>
+<h2 id="ascii">ASCII<a class="headerlink" href="#ascii" title="Permanent link">&para;</a></h2>
+<p>One of the most well-known examples of binary code in use is the ASCII (American Standard Code for Information Interchange) system. ASCII is used to represent text in computers, communication equipment, and other devices that use text. Each character—whether it's a letter, number, or symbol—is encoded into a unique 8-bit sequence. For example, the capital letter "A" in ASCII is represented by the binary sequence 01000001.</p>
+<p>In ASCII, each byte corresponds to a specific character. With 8 bits in a byte, ASCII can represent up to 256 different characters or symbols, although the basic ASCII set uses only the first 128 of these, covering standard English letters, numbers, punctuation marks, and some control characters like newline or space. This system allows computers to easily store and manipulate text data.</p>
+<p>While ASCII is one of the simplest and most widely used character encoding systems, there are other, more complex encoding systems such as Unicode, which can represent characters from many different languages and even emoji by using more than one byte.</p>
+<h2 id="units-of-information">Units of Information<a class="headerlink" href="#units-of-information" title="Permanent link">&para;</a></h2>
+<p>In computing and telecommunications, data is measured in specific units of information. The smallest unit is the bit, but as the amount of data we need to process has increased over time, larger units have been created to quantify this data more efficiently.</p>
+<ul>
+<li><strong>Bit (b):</strong> The smallest unit of data, representing a binary digit (0 or 1).</li>
+<li><strong>Byte (B):</strong> A group of 8 bits. Typically, a byte is used to encode a single character of text.</li>
+<li><strong>Kilobyte (KB):</strong> Approximately 1,000 bytes (actually 1,024 bytes in binary computing). This unit is often used to measure small files or chunks of data, such as text files.</li>
+<li><strong>Megabyte (MB):</strong> Approximately 1,000 kilobytes or 1 million bytes. A megabyte is typically used to measure medium-sized files such as images or short audio files.</li>
+<li><strong>Gigabyte (GB):</strong> Approximately 1,000 megabytes or 1 billion bytes. This is a common unit for measuring storage capacity in modern devices like smartphones or computers.</li>
+<li><strong>Terabyte (TB):</strong> Approximately 1,000 gigabytes or 1 trillion bytes. Terabytes are used to measure large storage capacities, such as those in cloud storage systems or external hard drives.</li>
+<li><strong>Petabyte (PB):</strong> Approximately 1,000 terabytes. This unit is used to measure extremely large amounts of data, such as the data stored in large data centers or massive archives.</li>
+<li><strong>Exabyte (EB):</strong> Approximately 1,000 petabytes. Data at this scale is typically found in high-capacity research centers, large internet platforms, and global communication networks.</li>
+<li><strong>Zettabyte (ZB):</strong> Approximately 1,000 exabytes. This scale is used to describe the vast amounts of data produced globally each year.</li>
+<li><strong>Yottabyte (YB):</strong> The largest standard unit of data storage, representing 1,000 zettabytes.</li>
+</ul>
+<p>As technology advances and the amount of data we create, store, and process grows, these units of information help to define the capacity of storage devices, data transmission rates, and the size of digital files. Understanding these units is essential for working with computers and networking in today’s digital world.</p>
+<h2 id="orders-of-magnitude-in-data">Orders of Magnitude in Data<a class="headerlink" href="#orders-of-magnitude-in-data" title="Permanent link">&para;</a></h2>
+<p>As seen from the units of information, data can scale dramatically from a single bit to an enormous yottabyte. Each jump from one unit to the next represents a thousandfold increase in capacity. For example, a gigabyte is 1,000 times larger than a megabyte, and a terabyte is 1,000 times larger than a gigabyte. This scaling system is known as "orders of magnitude" in data, and it helps us understand the exponential growth in data handling capabilities as we move from personal devices to large-scale data centers that power the internet and cloud services.</p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="unit1.html" class="btn btn-neutral float-left" title="Inside the Machine: Computer Architecture and Operating Systems"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="s11_intro.html" class="btn btn-neutral float-right" title="Digital Devices: An Overview">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -99,6 +164,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="unit1.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="s11_intro.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
